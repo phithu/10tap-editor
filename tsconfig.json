@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@10play/tentap-editor": ["./src/index"]
+      "extend-10tap-editor": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
