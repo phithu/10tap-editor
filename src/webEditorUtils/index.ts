@@ -4,6 +4,7 @@ export { BlockquoteBridge } from '../bridges/blockquote';
 export { BoldBridge } from '../bridges/bold';
 export { BulletListBridge } from '../bridges/bulletList';
 export { CodeBridge } from '../bridges/code';
+export { CodeBlockPrismBridge } from '../bridges/codeBlockPrism';
 export { ColorBridge } from '../bridges/color';
 export { CoreBridge } from '../bridges/core';
 export { HeadingBridge } from '../bridges/heading';

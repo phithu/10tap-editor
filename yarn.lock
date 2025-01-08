@@ -42,6 +42,7 @@ __metadata:
     "@tiptap/starter-kit": ^2.1.16
     "@types/jest": ^28.1.2
     "@types/lodash": ^4.14.202
+    "@types/prismjs": ^1.26.5
     "@types/react": ~17.0.21
     "@types/react-dom": ^18.2.18
     "@types/react-native": 0.70.0
@@ -51,10 +52,12 @@ __metadata:
     eslint: ^8.4.1
     eslint-config-prettier: ^8.5.0
     eslint-plugin-prettier: ^4.0.0
+    hast-util-from-html: ^2.0.3
     jest: ^28.1.1
     lodash: ^4.17.21
     pod-install: ^0.1.0
     prettier: ^2.0.5
+    prismjs: ^1.29.0
     react: 18.2.0
     react-dom: ^18.2.0
     react-native: 0.73.2
@@ -8117,6 +8120,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prismjs@npm:^1.26.5":
+  version: 1.26.5
+  resolution: "@types/prismjs@npm:1.26.5"
+  checksum: d208b04ee9b6de6b2dc916439a81baa47e64ab3659a66d3d34bc3e42faccba9d4b26f590d76f97f7978d1dfaafa0861f81172b1e3c68696dd7a42d73aaaf5b7b
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.11
   resolution: "@types/prop-types@npm:15.7.11"
@@ -14144,6 +14154,20 @@ __metadata:
   dependencies:
     function-bind: ^1.1.2
   checksum: 6151c75ca12554565098641c98a40f4cc86b85b0fd5b6fe92360967e4605a4f9610f7757260b4e8098dd1c2ce7f4b095f2006fe72a570e3b6d2d28de0298c176
+  languageName: node
+  linkType: hard
+
+"hast-util-from-html@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "hast-util-from-html@npm:2.0.3"
+  dependencies:
+    "@types/hast": ^3.0.0
+    devlop: ^1.1.0
+    hast-util-from-parse5: ^8.0.0
+    parse5: ^7.0.0
+    vfile: ^6.0.0
+    vfile-message: ^4.0.0
+  checksum: 50f589f25a82868d611668421ff1d7997778743b34fbde77cd74d152350162b5045090c65ee3c3e2b4d51568f35426a0fc851ee1965723e1abf466f7f9d0bd83
   languageName: node
   linkType: hard
 

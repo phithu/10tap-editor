@@ -1,5 +1,5 @@
 import { BoldBridge } from './bold';
-import { CodeBridge } from './code';
+// import { CodeBridge } from './code';
 import { ItalicBridge } from './italic';
 import { HistoryBridge } from './history';
 import { StrikeBridge } from './strike';
@@ -18,11 +18,12 @@ import { ImageBridge } from './image';
 import { PlaceholderBridge } from './placeholder';
 import { DropCursorBridge } from './dropcursor';
 import { HardBreakBridge } from './br';
+import { CodeBlockPrismBridge } from './codeBlockPrism';
 
 export const TenTapStartKit = [
   BoldBridge,
   HistoryBridge,
-  CodeBridge,
+  CodeBlockPrismBridge,
   ItalicBridge,
   StrikeBridge,
   UnderlineBridge,
